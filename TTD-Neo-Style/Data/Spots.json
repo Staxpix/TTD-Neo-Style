@@ -1,0 +1,399 @@
+[
+    {
+        "id": 1,
+        "headline": "Allrather Höhe",
+        "distance": "30km",
+        "disciplin": "Bike",
+        "image": "allrath-1",
+        "shortInfo": "Ein kleiner, aber feiner Anstieg mit ca. 100hm, ideal für Intervalltrainings",
+		"latitude": 51.06441982089533,
+		"longitude": 6.608034061942623,
+        "gallery" : [
+          "allrath-1",
+          "allrath-2",
+          "allrath-3",
+          "allrath-4",
+          "allrath-5",
+          "allrath-6"
+        ],
+        "text": "Westlich von Düsseldorf geht das als Berg durch :-). Die Allrather Höhe oder auch Vollrather Höhe ist eine Abraumhalde des allseits beliebten Tagebaus Garzweiler. Die Anhöhe bietet zwei sehr schöne Anstiege, die, je nach Tempo, zwischen 5 und 8 Minuten dauern und daher super für ein etwas intensiveres Interall-Training geeignet sind. Der etwas leichtere Aufstieg startet im Westen. Vom Süden her ist er kurz und knackig und vom Norden her am längsten und in einigen Abschnitten auch am längsten. Vorsicht bei der Abfahrt auf der nördlichen Route. Der Straßenbelag ist dort nicht der Beste! Unbedingt aufpassen!"
+    },
+    
+    {
+            "id": 17,
+            "headline": "Race-Sim um Allrather Höhe",
+            "distance": "30km",
+            "disciplin": "Bike",
+            "image": "race-allrath-2",
+            "shortInfo": "Eine kurze, harte Runde um die Allrather Höhe.",
+            "latitude": 51.04724888052212,
+            "longitude": 6.629746910785194,
+            "gallery" : [
+                "race-allrath-1",
+                "race-allrath-2",
+                "race-allrath-3",
+                "race-allrath-4",
+                "placeholder-1"
+              
+            ],
+            "text": "Wer kurz vor Wettkämpfen nochmal ein Route sucht, die möglichst nahe an Wettkampfstrecken herankommt wird hier glücklich! Die Runde ist relativ kurz, bietet aber alles, was einem auch im Wettkampf droht: Eine langgezogene Steigung, 2 sehr schnelle Abfahrten, ein kurzer Stich nach oben, den man wegdrücken muss sowie einen Abschnitt, bei dem man wunderbar auf dem TT liegen kann. Alles ohne Ampel und wenig Verkehr. Ein bisschen was zu Gucken gibts auch, denn man fährt mitten durch ein großes RWE-Gelände. Startpunkt ist Allrath. Von dort in südlicher Richtung die Kölner Landstraße und dann links in die Neurather Straße. Da gehts dann erstmal wellig hoch, ehe es flott bergab Richtung Kraftwerk geht. Dort dann rechts abbiegen und es geht flach weiter auf der L375. Dann rechts einbiegen auf die Allrather Straße. Hier kommt der kleine Stich und dann eine sehr schnelle Abfahrt (Achtung bei Seitenwind!). Wer möchte, dann kurz vor Allrath noch nach links in die Allrather Höhe abbiegen und die Höhe von Osten aus hochfahren."
+        },
+    
+    {
+        "id": 13,
+        "headline": "Freibad Lörick",
+        "distance": "1km",
+        "disciplin": "Swim",
+        "image": "lorick-1",
+        "shortInfo": "Freibad, 50m Bahn, Frühschwimmen :-)",
+        "latitude": 51.248771,
+        "longitude": 6.740193,
+        "gallery" : [
+          "lorick-1",
+          "lorick-2",
+          "lorick-3",
+          "lorick-4"
+        ],
+        "text": "Für viele das schönste Schwimmbad in Düsseldorf. Sehr schöne Lage auf der linken Rheinseite und super über die THB zu erreichen. Seit kurzem hat das Freibad Lörick auch eine 50m Bahn und Dank des Frühschwimmerangebots des TTDs kann man dort schon morgens ab 6 Uhr für ganz wenig Geld ganz viele Bahnen ziehen :-). Früh ist das Stichwort hier, denn 'früh' ist dringend zu empfehlen. Ab der Mittagszeit verwandelt sich das Freibad nämlich in ein Spaßbad! Geheimtipp: Zur Eröffnung der Schwimmsaison gibts immer ein kleines Kuchenbuffet - sehr zu empfehlen!"
+    },
+    
+    
+
+    {
+        "id": 2,
+        "headline": "Hamsterrad Krefeld",
+        "distance": "22km",
+        "disciplin": "Bike",
+        "image": "hamsterrad-1",
+        "shortInfo": "Intervallstrecke für alle, die noch nicht genug abgestumpft sind!",
+        "latitude": 51.33195769397868,
+        "longitude": 6.700404597036026,
+        "gallery" : [
+          "hamsterrad-1",
+          "hamsterrad-2",
+          "hamsterrad-3",
+          "hamsterrad-4",
+          "hamsterrad-5",
+          "hamsterrad-6",
+          "hamsterrad-7"
+        ],
+        "text": "Wer schon immer einmal 'Rolle' fahren wollte ohne auf einer Rolle zu sitzen, wird hier definitiv glücklich. Alle anderen aber auch, denn auf dieser Strecke kann man ziemlich perfekt und unendlich lange auf den TT seine Runden drehen. Möglichen machen das 2 Kreisverkehre am Anfang und am Ende der Strecke, sodass man nie anhalten muss. Der Straßenbelag wird zwar nach jedem Winter etwas schlecht, allerdings ist er überall gut befahrbar und auf der Hälfte der Strecke sogar ziemlich perfekt. Aufpassen sollte man nur unter der Woche, denn in dem Industriegebiet ist die LKW-Dichte entsprechend hoch. Und wenn man mal etwas übertreibt: Eine kleine, sehr symphatische Tankstelle ist gleich um die Ecke, und ebenfalls hier in den Tipps hinterlegt. Hin und zurück kann man übrigens auch perfekt auf dem Deich am Rhein entlang fahren. Der Deich auf der westlichen Rheinseite endet genau dort oben."
+    },
+    
+    {
+        "id": 19,
+        "headline": "Tanke Uerdinger Str.",
+        "distance": "20km",
+        "disciplin": "Bike",
+        "image": "tankeuerdinger-1",
+        "shortInfo": "Wer es im Hamsterrad übertrieben hat ...",
+        "latitude": 51.310711494159115,
+        "longitude": 6.678141002627467,
+        "gallery" : [
+            "tankeuerdinger-1",
+            "tankeuerdinger-2",
+            "tankeuerdinger-3",
+            "tankeuerdinger-4"
+        ],
+
+        "text": "Wer es im Hamsterrad übertrieben hat kann hier perfekt wieder auffüllen. Direkt südlich der Zeitfahrstrecke auf der Betaverstraße liegt diese kleine Tankestelle, die auch am Wochende geöffnet hat. Das hat den Vorteil, dass man auch mal in voller 'Wettkampfbewaffnung' mit dem TT unterwegs sein kann, ohne sich mit Essen und Trinken zu überladen und hier kurz stoppen kann."
+    },
+    
+    
+    {
+            "id": 12,
+            "headline": "Aaper Wald & Umfeld",
+            "distance": "22km",
+            "disciplin": "Bike & Run",
+            "image": "aaper-6",
+            "shortInfo": "Ein Traum für Run, MTB & Gravel",
+            "latitude": 51.26389303538096,
+            "longitude": 6.845257090673352,
+            "gallery" : [
+                "aaper-2",
+                "aaper-3",
+                "aaper-4",
+                "aaper-5",
+                "aaper-6",
+                "aaper-7",
+                "aaper-8",
+                "aaper-9",
+                "aaper-10",
+                "aaper-11",
+                "aaper-12",
+                "aaper-13"
+            ],
+            "text": "Der perfekte Wald, um sich mal so richtig auszutoben! Dutzende Wegen laden zum Laufen, MTB oder Graveln ein und am Wochenende kann man sich in den Pausen ein paar Segelflugzeuge oben auf dem Flugfeld anschauen. Zu Stoßzeiten etwas überfüllt und auf die Hunde sollte man immer einen Blick zu viel werfen, aber gefährlich wird es eigentlich nie. Einige knackige Anstiege laden zu schönen Einheiten ein und im Sommer finden sich hier regelmäßig TTD-Gruppen zu Long-Runs zusammen."
+        },
+    
+    {
+                "id": 18,
+                "headline": "Rheinfähre Kaiserswerth",
+                "distance": "7km",
+                "disciplin": "Bike",
+                "image": "rheinfahre-1",
+                "shortInfo": "Lust auf ne kleine Bootstour :-)?",
+                "latitude": 51.29658559685803,
+                "longitude": 6.728797117120956,
+                "gallery" : [
+                    "rheinfahre-1",
+                    "rheinfahre-2",
+                    "rheinfahre-3",
+                    "placeholder-1"
+                    
+                ],
+                "text": "Wer über den Rhein muss, aber zu faul ist sich eine der Brücken hochzuquälen wird hier fündig :-). Eine kleine Fähre pendelt tagsüber alle paar Minuten zwischen den beiden Ufern hin und her. Die Überfahrt kostet 2 Euro für Bikes und ist auch auf kleinere Touren eine nette Abwechslung."
+            },
+    
+    
+    {
+            "id": 11,
+            "headline": "Dernbuschweg",
+            "distance": "4km",
+            "disciplin": "Bike",
+            "image": "dernbuschweg-1",
+            "shortInfo": "Lust auf Bergintervalle = Dernbuschweg",
+            "latitude": 51.245643253118786,
+            "longitude": 6.865879457607288,
+            
+            "gallery" : [
+              "dernbuschweg-1",
+              "dernbuschweg-2",
+              "dernbuschweg-3",
+              "dernbuschweg-4",
+              "dernbuschweg-5"
+            ],
+            "text": "Je nach Fitnesstand kann man sich hier 1,5 bis 2,5 Minuten richtig schön auspowern. Aber bitte unbedingt bei den Froschüberquerungen aufpassen. Die können gerade bergab etwas ungemütlich werden! Ansonsten ... siehe Fotos :-)"
+        },
+
+    
+
+{
+        "id": 4,
+        "headline": "L361",
+        "distance": "22km",
+        "disciplin": "Bike",
+        "image": "L361-1",
+        
+        "shortInfo": "Eine der beliebtesten Zeitfahrstrecken in der Nähe von Düsseldorf.",
+		"latitude": 51.21260798686192,
+        "longitude": 6.547437033388442,
+        "gallery" : [
+          "L361-1",
+          "L361-2",
+          "L361-3",
+          "L361-4"
+        ],
+        "text": "12km auf breiten Seitenstreifen mit wenigen, weit im voraus erkennbaren Ampeln. Was will man mehr, wenn man mal auf's Tempo drücken will. Aber auch für entspannte Radtouren eignet sich die Strecke bestens, denn viele Highlights, z.B. das Schloss Dyck, lassen sich über diese 'Verteiler-Strecke' recht schnell erreichen. Der Asphalt ist super und mit den Autos gibt es keine Probleme. Am schnellsten erreicht man die Strecke über die Route: THB - Meerbusch - Schiefbahn"
+    },
+
+{
+        "id": 15,
+        "headline": "Arena Sportpark",
+        "distance": "2km",
+        "disciplin": "Swim, Bike & Run",
+        "image": "arenasportpark-1",
+        
+        "shortInfo": "Unsere Home-Base :-)",
+        "latitude": 51.26124555326922,
+        "longitude": 6.730404608961955,
+        "gallery" : [
+          "arenasportpark-1",
+          "arenasportpark-2",
+          "arenasportpark-3",
+          "arenasportpark-4",
+          "arenasportpark-5",
+          "arenasportpark-6",
+          "arenasportpark-7",
+          "arenasportpark-8"
+          
+        ],
+        "text": "Den Arena Sportpark im Düsseldorfer Nordwesten muss man auf jeden Fall kennen, denn hier finden zahlreiche Trainingsangebot des TTD statt. Schwimmen im Rheinbad, Lauftraining auf der Bahn und in den kalten Monaten gehts in die Leichtathletik-Halle, die neben zahlreichen Sportgeräten ebenfalls eine kleine, angewinkelte 200m Bahn hat. Auch Frühsport ist in der Halle möglich. Je nach Jahreszeit ab 6 oder 7 Uhr. Ein paar Taler sind dafür nötig, aber mit eurem TTD-Ausweis ist fast umsonst :-)"
+    },
+
+{
+        "id": 16,
+        "headline": "Graveln linke Rheinseite",
+        "distance": "5km", 
+        "disciplin": "Gravel-Bike",
+        "image": "gravelnlinkerheinseite-1",
+        
+        "shortInfo": "Gravel in Nähe des Rheins!",
+        "latitude": 51.28602712396544,
+        "longitude": 6.687572041954007,
+        "gallery" : [
+          "gravelnlinkerheinseite-1",
+          "gravelnlinkerheinseite-2",
+          "gravelnlinkerheinseite-3",
+          "gravelnlinkerheinseite-4",
+          "gravelnlinkerheinseite-5"
+          
+        ],
+        "text": "Wer ein Gravel-Bike besitzt ist ja ständig auf der Suche nach neuen Routen. Die wenigstens denken dabei sicherlich an die linke Rheinseite zwischen Büderich und Krefeld, aber auch hier gibt es viele kleine Wäldchen und Feldwege, die sich perfekt eignen, um mal den Asphalt zu verlassen. Das schöne dabei ist, dass man ständig ganz in der Nähe des Deiches ist. Also perfekt für alle, die nur mal kurz Offroad wollen oder z.B. gerade mit dem Graveln anfangen. Wie immer findet man die besten Straßen und Routen, wenn man einfach mal daruf losfährt. Alle Wege sind hier sehr gut befahrbar und die Gefahr eines Sturzes oder einer Panne ist eigentlich gleich 0. Kleiner Tipp: Fahrt niemals einfach querfeldein über die Fälder, sonst schicken euch die Bauern schonmal ihre Hunde hinterher :-)"
+    },
+
+{
+        "id": 14,
+        "headline": "Angerbachtal",
+        "distance": "19km",
+        "disciplin": "Bike",
+        "image": "angerbachtal-1",
+        
+        "shortInfo": "Eine schöne Straße entlang dem Angerbach",
+        "latitude": 51.30860037323143,
+        "longitude": 6.970846498015196,
+        "gallery" : [
+          "angerbachtal-1",
+          "placeholder-1",
+          "placeholder-1",
+          "placeholder-1"
+        ],
+        "text": "Ein kleiner Geheimtipp westlich von Ratingen. Entlag des Angerbachts schlängelt sich Kilometerlang eine von Autos fast gar nciht befahrene Strecke. Der 'Angerweg' eignet sich sowohl für gemütliche Runden inmitten wunderschöner Natur, aber auch für ein ordentliches Power-Intervall. Dafür am besten von Osten in Richtung Düsseldorf starten. Die vielen kleinen, unrhythmischen Anstiege sind ein schöne Rennsimulation. Am Wochenende bitte auf die Fußgänger/Hunde aufpassen, die aber auch nicht wirklich zahlreich vorhanden sind im Vergleich zu anderen Straßen."
+    },
+
+{
+        "id": 20,
+        "headline": "Rather Waldstadion",
+        "distance": "3km",
+        "disciplin": "Run",
+        "image": "ratherwaldstadion-1",
+        
+        "shortInfo": "Super Bahn für ein paar schnelle Runden.",
+        "latitude": 51.263407216503516,
+        "longitude": 6.8269089951851205,
+        "gallery" : [
+          "ratherwaldstadion-1",
+          "ratherwaldstadion-2",
+          "ratherwaldstadion-3",
+          "ratherwaldstadion-4",
+          "ratherwaldstadion-5"
+        ],
+        "text": "Wenn's mal flott werden muss, dann können wir euch das Rather Waldstadion wärmestens empfehlen. Sehr schön gelegen, gut zu erreichen (Bahn-Station direkt vor dem Eingang!) und eine perfekte Bahn laden zu Intervall-Trainings und allem was sonst noch so Spaß macht ein. Unter der großen Tribüne kann man sein Lager aufschlagen. Die weiträumige Anlage bietet genug Platz für eine ausgiebige Aufwärm-Session, ohne dabei andere zu stören."
+    },
+
+{
+        "id": 8,
+        "headline": "Köln",
+        "distance": "45km",
+        "disciplin": "Bike",
+        "image": "koln-1",
+        "shortInfo": "Lässt sich weiträumig umfahren",
+        "latitude": 50.94161212680994,
+        "longitude": 6.96332130727186,
+        "gallery" : [
+            "koln-1",
+            "koln-2",
+            "koln-3",
+            "koln-4"
+        ],
+        "text": "Wer eine Reise nach Köln nicht verhindern kann sollte sie wenigstens mit dem Rad antreten. Tipp: Schlängelt euch am Rhein entlang in Richtung Süden. Die Strecken am Rhein sind mittleweile alle perfekt befahrbar. Gerade auf der westlichen Rheinseite kann man ohne einmal anzuhalten bis zur Hohenzollernbrücke durchfahren. Mit dem Gravel-Bike macht es doppelt so viel Spaß, denn dann man weite Teile der Strecke direkt am Wasser und auf kleinen Wegen über die Rheinwiesen fahren."
+    },
+
+{
+        "id": 5,
+        "headline": "L361 - Bäckerei",
+        "distance": "22km",
+        "disciplin": "Bike",
+        "image": "placeholder-2",
+        "shortInfo": "Cafe & Bäckerei Mattheisen",
+        "latitude": 51.20603470392353,
+        "longitude": 6.560996565712948,
+        "gallery" : [
+            "placeholder-1",
+            "placeholder-1",
+            "placeholder-1",
+            "placeholder-1",
+            "placeholder-1"
+         
+        ],
+        "text": "Eine kleine Bäckerei auf der L361 - super lecker und auch am Sonntag geöffnet. Gerüchten zu Folge hat die einigen schon den Tag gerettet :-)"
+    },
+
+{
+        "id": 6,
+        "headline": "Jüchener Wellen",
+        "distance": "22km",
+        "disciplin": "Bike",
+        "image": "placeholder-2",
+        "shortInfo": "Ein kleiner Geheimtipp für härtere Trainingseinheiten",
+        "latitude": 51.09766753363943,
+        "longitude": 6.524358039939678,
+        "gallery" : [
+            "placeholder-1",
+            "placeholder-1",
+            "placeholder-1",
+            "placeholder-1",
+            "placeholder-1",
+            "placeholder-1"
+          
+        ],
+        "text": "Ein ständiges auf und ab auf einer so gut wie gar nicht befahrenen Straße. Das Profil der Strecke lädt zum trainieren ein: Kurze, regelmäßige Bergsprints, 'Drüberdrücken', kurze Intervalle. Alles möglich, denn es geht nur hoch und runter, fast nie wird es flach."
+    },
+
+{
+        "id": 7,
+        "headline": "Terra Nova Speedway",
+        "distance": "22km",
+        "disciplin": "Bike",
+        "image": "placeholder-2",
+        "shortInfo": "Eine perfekte Radstraße zum Tagebau Hambach",
+        "latitude": 50.93633150255823,
+		"longitude": 6.532263450162096,
+        "gallery" : [
+            "placeholder-1",
+            "placeholder-1",
+            "placeholder-1",
+            "placeholder-1",
+            "placeholder-1"
+        ],
+        "text": "Kilometerlang geradeaus auf sehr guten Asphalt und die Chance den ein oder anderen Profi beim Trainieren zu sehen! Der Weg endet am Tagebau. Ob der Ausblick 'Schön' ist muss jeder für sich selber entscheiden - gesehen haben sollte man ihn aber mal. Das Städchen Elsdorf lädt zum kurzen Verweilen und Auftanken ein. Ein beliebter Wendepunkt für viele Strecken. Und wer es nicht lassen kann: Sprints, Sprints, Sprints :-)"
+    },
+
+
+
+{
+        "id": 9,
+        "headline": "Sender Langenberg",
+        "distance": "22km",
+        "disciplin": "Bike",
+        "image": "placeholder-2",
+        "shortInfo": "Ein absoluter Klassiker! Da muss man immer mal wieder hoch!",
+        "latitude": 51.3569582568794,
+        "longitude": 7.135233293614203,
+        
+        "gallery" : [
+            "placeholder-1",
+            "placeholder-1",
+            "placeholder-1",
+            "placeholder-1",
+            "placeholder-1"
+        ],
+        
+        "text": "Der Sender Langeberg gehört zu den beliebtesten Locations für Rad-Fahrer in unserer Gegend. Schöne, knackige Anstiege - belohnt mit einem wunderbaren Ausblick und man ist garantiert nie alleine auf der Strecke. Vom Süden her geht es die Hordtstraße hoch, vom Norden her die Hüserstraße und am besten nimmt man auch noch den Höhenweg im Osten auf dem Hin- oder Rückweg mit. Wer über einen gesunden Humor verfügt kann den Sender auch über die kleinen Feldweg vom Süden her anfahren. Start wäre hier z.B. der Parkplatz 'Nizzabad'. Aber die Wege sind nicht ganz ohne :-)."
+    },
+
+{
+        "id": 10,
+        "headline": "Dorper Weg",
+        "distance": "22km",
+        "disciplin": "Bike",
+        "image": "placeholder-2",
+        "shortInfo": "Ein kleiner, aber feiner Weg nördlich von Erkrath",
+        "latitude": 51.23243515355749,
+        "longitude": 6.9027506154383556,
+        
+        "gallery" : [
+            "placeholder-1",
+                        "placeholder-1",
+                        "placeholder-1",
+                        "placeholder-1",
+                        "placeholder-1"
+        ],
+
+        "text": "Am besten im Süden anfangen. Da geht es direkt mit einer schönen Steigung los und dann wellig ein paar Kilometer bis hoch zur B7. Wenig Verkehr, man kann ordentlich drücken und wer ein Gravel-Bike hat sollte unbedingt mal die Straßen links und rechts vom Dorper Weg befahren."
+    }
+
+
+
+
+]

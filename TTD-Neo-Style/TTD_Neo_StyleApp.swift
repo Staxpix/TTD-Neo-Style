@@ -11,7 +11,7 @@ import SwiftUI
 struct TTD_Neo_StyleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartTabView()
         }
     }
 }

@@ -11,6 +11,61 @@
 		78F9BBB6266680E100731806 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBB5266680E100731806 /* ContentView.swift */; };
 		78F9BBB8266680E300731806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F9BBB7266680E300731806 /* Assets.xcassets */; };
 		78F9BBBB266680E300731806 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F9BBBA266680E300731806 /* Preview Assets.xcassets */; };
+		78F9BC0A2666811B00731806 /* SpotDetailViewMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBC32666811B00731806 /* SpotDetailViewMap.swift */; };
+		78F9BC0B2666811B00731806 /* SpotsMapViewLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBC42666811B00731806 /* SpotsMapViewLinks.swift */; };
+		78F9BC0C2666811B00731806 /* MapViewTrainingsLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBC62666811B00731806 /* MapViewTrainingsLocations.swift */; };
+		78F9BC0D2666811B00731806 /* MapAnnotationViewBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBC72666811B00731806 /* MapAnnotationViewBackup.swift */; };
+		78F9BC0E2666811B00731806 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBC82666811B00731806 /* MapAnnotationView.swift */; };
+		78F9BC0F2666811B00731806 /* RheinbadTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBCB2666811B00731806 /* RheinbadTrainingView.swift */; };
+		78F9BC102666811B00731806 /* ArenaSportParkTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBCC2666811B00731806 /* ArenaSportParkTrainingView.swift */; };
+		78F9BC112666811B00731806 /* THBTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBCD2666811B00731806 /* THBTrainingView.swift */; };
+		78F9BC122666811B00731806 /* LazyTrainingOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBCE2666811B00731806 /* LazyTrainingOverview.swift */; };
+		78F9BC132666811B00731806 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBD02666811B00731806 /* ImageLoader.swift */; };
+		78F9BC142666811B00731806 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBD12666811B00731806 /* ColorExtension.swift */; };
+		78F9BC152666811B00731806 /* FlatLinkStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBD22666811B00731806 /* FlatLinkStyle.swift */; };
+		78F9BC162666811B00731806 /* PersonsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBD42666811B00731806 /* PersonsCardView.swift */; };
+		78F9BC172666811B00731806 /* PersonsCardBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBD52666811B00731806 /* PersonsCardBackView.swift */; };
+		78F9BC182666811B00731806 /* PersonsViewFlipOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBD62666811B00731806 /* PersonsViewFlipOverview.swift */; };
+		78F9BC192666811B00731806 /* EasyRun.json in Resources */ = {isa = PBXBuildFile; fileRef = 78F9BBD82666811B00731806 /* EasyRun.json */; };
+		78F9BC1A2666811B00731806 /* Spots.json in Resources */ = {isa = PBXBuildFile; fileRef = 78F9BBD92666811B00731806 /* Spots.json */; };
+		78F9BC1B2666811B00731806 /* PersonsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBDA2666811B00731806 /* PersonsModel.swift */; };
+		78F9BC1C2666811B00731806 /* Persons.json in Resources */ = {isa = PBXBuildFile; fileRef = 78F9BBDB2666811B00731806 /* Persons.json */; };
+		78F9BC1D2666811B00731806 /* SpotsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBDC2666811B00731806 /* SpotsModel.swift */; };
+		78F9BC1E2666811B00731806 /* DecodeJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBDD2666811B00731806 /* DecodeJSON.swift */; };
+		78F9BC1F2666811B00731806 /* NewsModelOnline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBDE2666811B00731806 /* NewsModelOnline.swift */; };
+		78F9BC202666811B00731806 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBE02666811B00731806 /* ContentView2.swift */; };
+		78F9BC212666811B00731806 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBE12666811B00731806 /* ViewModel.swift */; };
+		78F9BC222666811B00731806 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBE22666811B00731806 /* Models.swift */; };
+		78F9BC232666811B00731806 /* StartTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBE42666811B00731806 /* StartTabView.swift */; };
+		78F9BC242666811B00731806 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBE52666811B00731806 /* HomeScreen.swift */; };
+		78F9BC252666811B00731806 /* RandomRunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBE82666811B00731806 /* RandomRunView.swift */; };
+		78F9BC262666811B00731806 /* RandomBikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBE92666811B00731806 /* RandomBikeView.swift */; };
+		78F9BC272666811B00731806 /* RandomSwimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBEA2666811B00731806 /* RandomSwimView.swift */; };
+		78F9BC282666811B00731806 /* RandomWorkout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBEC2666811B00731806 /* RandomWorkout2.swift */; };
+		78F9BC292666811B00731806 /* MediumRunTrainingsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBEE2666811B00731806 /* MediumRunTrainingsData.swift */; };
+		78F9BC2A2666811B00731806 /* MediumSwimTrainings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBEF2666811B00731806 /* MediumSwimTrainings.swift */; };
+		78F9BC2B2666811B00731806 /* MediumBikeTrainings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBF02666811B00731806 /* MediumBikeTrainings.swift */; };
+		78F9BC2C2666811B00731806 /* HardBikeTrainings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBF12666811B00731806 /* HardBikeTrainings.swift */; };
+		78F9BC2D2666811B00731806 /* HardSwimTrainings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBF22666811B00731806 /* HardSwimTrainings.swift */; };
+		78F9BC2E2666811B00731806 /* EasyRunTrainingsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBF32666811B00731806 /* EasyRunTrainingsData.swift */; };
+		78F9BC2F2666811B00731806 /* EasyBikeTrainings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBF42666811B00731806 /* EasyBikeTrainings.swift */; };
+		78F9BC302666811B00731806 /* EasySwimTrainings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBF52666811B00731806 /* EasySwimTrainings.swift */; };
+		78F9BC312666811B00731806 /* HardRunTrainingsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBF62666811B00731806 /* HardRunTrainingsData.swift */; };
+		78F9BC322666811B00731806 /* FAQDisGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBF82666811B00731806 /* FAQDisGroupView.swift */; };
+		78F9BC332666811B00731806 /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBF92666811B00731806 /* FAQ.swift */; };
+		78F9BC342666811B00731806 /* NewsListGeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBFB2666811B00731806 /* NewsListGeo.swift */; };
+		78F9BC352666811B00731806 /* NewsListCellGeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBFC2666811B00731806 /* NewsListCellGeo.swift */; };
+		78F9BC362666811B00731806 /* NewsListGeoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBFD2666811B00731806 /* NewsListGeoDetail.swift */; };
+		78F9BC372666811B00731806 /* NewsListLazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBFF2666811B00731806 /* NewsListLazy.swift */; };
+		78F9BC382666811B00731806 /* NewsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BC002666811B00731806 /* NewsDetailView.swift */; };
+		78F9BC392666811B00731806 /* NewsListCell3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BC012666811B00731806 /* NewsListCell3D.swift */; };
+		78F9BC3A2666811B00731806 /* SpotInsetGallery3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BC032666811B00731806 /* SpotInsetGallery3.swift */; };
+		78F9BC3B2666811B00731806 /* SpotDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BC042666811B00731806 /* SpotDetail.swift */; };
+		78F9BC3C2666811B00731806 /* SpotStartListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BC052666811B00731806 /* SpotStartListItem.swift */; };
+		78F9BC3D2666811B00731806 /* SpotListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BC062666811B00731806 /* SpotListItem.swift */; };
+		78F9BC3E2666811B00731806 /* SpotInsetGeoGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BC072666811B00731806 /* SpotInsetGeoGallery.swift */; };
+		78F9BC3F2666811B00731806 /* SpotsImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BC082666811B00731806 /* SpotsImageView.swift */; };
+		78F9BC402666811B00731806 /* SpotStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BC092666811B00731806 /* SpotStart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +75,61 @@
 		78F9BBB7266680E300731806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78F9BBBA266680E300731806 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		78F9BBBC266680E300731806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78F9BBC32666811B00731806 /* SpotDetailViewMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotDetailViewMap.swift; sourceTree = "<group>"; };
+		78F9BBC42666811B00731806 /* SpotsMapViewLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotsMapViewLinks.swift; sourceTree = "<group>"; };
+		78F9BBC62666811B00731806 /* MapViewTrainingsLocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewTrainingsLocations.swift; sourceTree = "<group>"; };
+		78F9BBC72666811B00731806 /* MapAnnotationViewBackup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAnnotationViewBackup.swift; sourceTree = "<group>"; };
+		78F9BBC82666811B00731806 /* MapAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		78F9BBCB2666811B00731806 /* RheinbadTrainingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RheinbadTrainingView.swift; sourceTree = "<group>"; };
+		78F9BBCC2666811B00731806 /* ArenaSportParkTrainingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArenaSportParkTrainingView.swift; sourceTree = "<group>"; };
+		78F9BBCD2666811B00731806 /* THBTrainingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = THBTrainingView.swift; sourceTree = "<group>"; };
+		78F9BBCE2666811B00731806 /* LazyTrainingOverview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyTrainingOverview.swift; sourceTree = "<group>"; };
+		78F9BBD02666811B00731806 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		78F9BBD12666811B00731806 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		78F9BBD22666811B00731806 /* FlatLinkStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatLinkStyle.swift; sourceTree = "<group>"; };
+		78F9BBD42666811B00731806 /* PersonsCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonsCardView.swift; sourceTree = "<group>"; };
+		78F9BBD52666811B00731806 /* PersonsCardBackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonsCardBackView.swift; sourceTree = "<group>"; };
+		78F9BBD62666811B00731806 /* PersonsViewFlipOverview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonsViewFlipOverview.swift; sourceTree = "<group>"; };
+		78F9BBD82666811B00731806 /* EasyRun.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EasyRun.json; sourceTree = "<group>"; };
+		78F9BBD92666811B00731806 /* Spots.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Spots.json; sourceTree = "<group>"; };
+		78F9BBDA2666811B00731806 /* PersonsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonsModel.swift; sourceTree = "<group>"; };
+		78F9BBDB2666811B00731806 /* Persons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Persons.json; sourceTree = "<group>"; };
+		78F9BBDC2666811B00731806 /* SpotsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotsModel.swift; sourceTree = "<group>"; };
+		78F9BBDD2666811B00731806 /* DecodeJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodeJSON.swift; sourceTree = "<group>"; };
+		78F9BBDE2666811B00731806 /* NewsModelOnline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsModelOnline.swift; sourceTree = "<group>"; };
+		78F9BBE02666811B00731806 /* ContentView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		78F9BBE12666811B00731806 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		78F9BBE22666811B00731806 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		78F9BBE42666811B00731806 /* StartTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartTabView.swift; sourceTree = "<group>"; };
+		78F9BBE52666811B00731806 /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		78F9BBE82666811B00731806 /* RandomRunView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomRunView.swift; sourceTree = "<group>"; };
+		78F9BBE92666811B00731806 /* RandomBikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomBikeView.swift; sourceTree = "<group>"; };
+		78F9BBEA2666811B00731806 /* RandomSwimView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomSwimView.swift; sourceTree = "<group>"; };
+		78F9BBEC2666811B00731806 /* RandomWorkout2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomWorkout2.swift; sourceTree = "<group>"; };
+		78F9BBEE2666811B00731806 /* MediumRunTrainingsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumRunTrainingsData.swift; sourceTree = "<group>"; };
+		78F9BBEF2666811B00731806 /* MediumSwimTrainings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumSwimTrainings.swift; sourceTree = "<group>"; };
+		78F9BBF02666811B00731806 /* MediumBikeTrainings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumBikeTrainings.swift; sourceTree = "<group>"; };
+		78F9BBF12666811B00731806 /* HardBikeTrainings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HardBikeTrainings.swift; sourceTree = "<group>"; };
+		78F9BBF22666811B00731806 /* HardSwimTrainings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HardSwimTrainings.swift; sourceTree = "<group>"; };
+		78F9BBF32666811B00731806 /* EasyRunTrainingsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyRunTrainingsData.swift; sourceTree = "<group>"; };
+		78F9BBF42666811B00731806 /* EasyBikeTrainings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyBikeTrainings.swift; sourceTree = "<group>"; };
+		78F9BBF52666811B00731806 /* EasySwimTrainings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasySwimTrainings.swift; sourceTree = "<group>"; };
+		78F9BBF62666811B00731806 /* HardRunTrainingsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HardRunTrainingsData.swift; sourceTree = "<group>"; };
+		78F9BBF82666811B00731806 /* FAQDisGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQDisGroupView.swift; sourceTree = "<group>"; };
+		78F9BBF92666811B00731806 /* FAQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
+		78F9BBFB2666811B00731806 /* NewsListGeo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsListGeo.swift; sourceTree = "<group>"; };
+		78F9BBFC2666811B00731806 /* NewsListCellGeo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsListCellGeo.swift; sourceTree = "<group>"; };
+		78F9BBFD2666811B00731806 /* NewsListGeoDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsListGeoDetail.swift; sourceTree = "<group>"; };
+		78F9BBFF2666811B00731806 /* NewsListLazy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsListLazy.swift; sourceTree = "<group>"; };
+		78F9BC002666811B00731806 /* NewsDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailView.swift; sourceTree = "<group>"; };
+		78F9BC012666811B00731806 /* NewsListCell3D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsListCell3D.swift; sourceTree = "<group>"; };
+		78F9BC032666811B00731806 /* SpotInsetGallery3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotInsetGallery3.swift; sourceTree = "<group>"; };
+		78F9BC042666811B00731806 /* SpotDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotDetail.swift; sourceTree = "<group>"; };
+		78F9BC052666811B00731806 /* SpotStartListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotStartListItem.swift; sourceTree = "<group>"; };
+		78F9BC062666811B00731806 /* SpotListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotListItem.swift; sourceTree = "<group>"; };
+		78F9BC072666811B00731806 /* SpotInsetGeoGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotInsetGeoGallery.swift; sourceTree = "<group>"; };
+		78F9BC082666811B00731806 /* SpotsImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotsImageView.swift; sourceTree = "<group>"; };
+		78F9BC092666811B00731806 /* SpotStart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotStart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +162,19 @@
 		78F9BBB2266680E100731806 /* TTD-Neo-Style */ = {
 			isa = PBXGroup;
 			children = (
+				78F9BBD72666811B00731806 /* Data */,
+				78F9BBCF2666811B00731806 /* Extensions */,
+				78F9BBF72666811B00731806 /* FAQ */,
+				78F9BBC52666811B00731806 /* Locations */,
+				78F9BBFE2666811B00731806 /* News */,
+				78F9BBFA2666811B00731806 /* News-Geo */,
+				78F9BBD32666811B00731806 /* Persons */,
+				78F9BBC22666811B00731806 /* Spots */,
+				78F9BC022666811B00731806 /* SpotsNew */,
+				78F9BBE32666811B00731806 /* StartTabView */,
+				78F9BBC92666811B00731806 /* Trainings */,
+				78F9BBDF2666811B00731806 /* Weather */,
+				78F9BBE62666811B00731806 /* Workout Planner */,
 				78F9BBB3266680E100731806 /* TTD_Neo_StyleApp.swift */,
 				78F9BBB5266680E100731806 /* ContentView.swift */,
 				78F9BBB7266680E300731806 /* Assets.xcassets */,
@@ -67,6 +190,184 @@
 				78F9BBBA266680E300731806 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		78F9BBC22666811B00731806 /* Spots */ = {
+			isa = PBXGroup;
+			children = (
+				78F9BBC32666811B00731806 /* SpotDetailViewMap.swift */,
+				78F9BBC42666811B00731806 /* SpotsMapViewLinks.swift */,
+			);
+			path = Spots;
+			sourceTree = "<group>";
+		};
+		78F9BBC52666811B00731806 /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				78F9BBC62666811B00731806 /* MapViewTrainingsLocations.swift */,
+				78F9BBC72666811B00731806 /* MapAnnotationViewBackup.swift */,
+				78F9BBC82666811B00731806 /* MapAnnotationView.swift */,
+			);
+			path = Locations;
+			sourceTree = "<group>";
+		};
+		78F9BBC92666811B00731806 /* Trainings */ = {
+			isa = PBXGroup;
+			children = (
+				78F9BBCA2666811B00731806 /* TrainingFlipMapCards */,
+				78F9BBCE2666811B00731806 /* LazyTrainingOverview.swift */,
+			);
+			path = Trainings;
+			sourceTree = "<group>";
+		};
+		78F9BBCA2666811B00731806 /* TrainingFlipMapCards */ = {
+			isa = PBXGroup;
+			children = (
+				78F9BBCB2666811B00731806 /* RheinbadTrainingView.swift */,
+				78F9BBCC2666811B00731806 /* ArenaSportParkTrainingView.swift */,
+				78F9BBCD2666811B00731806 /* THBTrainingView.swift */,
+			);
+			path = TrainingFlipMapCards;
+			sourceTree = "<group>";
+		};
+		78F9BBCF2666811B00731806 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				78F9BBD02666811B00731806 /* ImageLoader.swift */,
+				78F9BBD12666811B00731806 /* ColorExtension.swift */,
+				78F9BBD22666811B00731806 /* FlatLinkStyle.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		78F9BBD32666811B00731806 /* Persons */ = {
+			isa = PBXGroup;
+			children = (
+				78F9BBD42666811B00731806 /* PersonsCardView.swift */,
+				78F9BBD52666811B00731806 /* PersonsCardBackView.swift */,
+				78F9BBD62666811B00731806 /* PersonsViewFlipOverview.swift */,
+			);
+			path = Persons;
+			sourceTree = "<group>";
+		};
+		78F9BBD72666811B00731806 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				78F9BBD82666811B00731806 /* EasyRun.json */,
+				78F9BBD92666811B00731806 /* Spots.json */,
+				78F9BBDA2666811B00731806 /* PersonsModel.swift */,
+				78F9BBDB2666811B00731806 /* Persons.json */,
+				78F9BBDC2666811B00731806 /* SpotsModel.swift */,
+				78F9BBDD2666811B00731806 /* DecodeJSON.swift */,
+				78F9BBDE2666811B00731806 /* NewsModelOnline.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		78F9BBDF2666811B00731806 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				78F9BBE02666811B00731806 /* ContentView2.swift */,
+				78F9BBE12666811B00731806 /* ViewModel.swift */,
+				78F9BBE22666811B00731806 /* Models.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		78F9BBE32666811B00731806 /* StartTabView */ = {
+			isa = PBXGroup;
+			children = (
+				78F9BBE42666811B00731806 /* StartTabView.swift */,
+				78F9BBE52666811B00731806 /* HomeScreen.swift */,
+			);
+			path = StartTabView;
+			sourceTree = "<group>";
+		};
+		78F9BBE62666811B00731806 /* Workout Planner */ = {
+			isa = PBXGroup;
+			children = (
+				78F9BBE72666811B00731806 /* SubViews */,
+				78F9BBEB2666811B00731806 /* MainView */,
+				78F9BBED2666811B00731806 /* Data */,
+			);
+			path = "Workout Planner";
+			sourceTree = "<group>";
+		};
+		78F9BBE72666811B00731806 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				78F9BBE82666811B00731806 /* RandomRunView.swift */,
+				78F9BBE92666811B00731806 /* RandomBikeView.swift */,
+				78F9BBEA2666811B00731806 /* RandomSwimView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		78F9BBEB2666811B00731806 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				78F9BBEC2666811B00731806 /* RandomWorkout2.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		78F9BBED2666811B00731806 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				78F9BBEE2666811B00731806 /* MediumRunTrainingsData.swift */,
+				78F9BBEF2666811B00731806 /* MediumSwimTrainings.swift */,
+				78F9BBF02666811B00731806 /* MediumBikeTrainings.swift */,
+				78F9BBF12666811B00731806 /* HardBikeTrainings.swift */,
+				78F9BBF22666811B00731806 /* HardSwimTrainings.swift */,
+				78F9BBF32666811B00731806 /* EasyRunTrainingsData.swift */,
+				78F9BBF42666811B00731806 /* EasyBikeTrainings.swift */,
+				78F9BBF52666811B00731806 /* EasySwimTrainings.swift */,
+				78F9BBF62666811B00731806 /* HardRunTrainingsData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		78F9BBF72666811B00731806 /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				78F9BBF82666811B00731806 /* FAQDisGroupView.swift */,
+				78F9BBF92666811B00731806 /* FAQ.swift */,
+			);
+			path = FAQ;
+			sourceTree = "<group>";
+		};
+		78F9BBFA2666811B00731806 /* News-Geo */ = {
+			isa = PBXGroup;
+			children = (
+				78F9BBFB2666811B00731806 /* NewsListGeo.swift */,
+				78F9BBFC2666811B00731806 /* NewsListCellGeo.swift */,
+				78F9BBFD2666811B00731806 /* NewsListGeoDetail.swift */,
+			);
+			path = "News-Geo";
+			sourceTree = "<group>";
+		};
+		78F9BBFE2666811B00731806 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				78F9BBFF2666811B00731806 /* NewsListLazy.swift */,
+				78F9BC002666811B00731806 /* NewsDetailView.swift */,
+				78F9BC012666811B00731806 /* NewsListCell3D.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		78F9BC022666811B00731806 /* SpotsNew */ = {
+			isa = PBXGroup;
+			children = (
+				78F9BC032666811B00731806 /* SpotInsetGallery3.swift */,
+				78F9BC042666811B00731806 /* SpotDetail.swift */,
+				78F9BC052666811B00731806 /* SpotStartListItem.swift */,
+				78F9BC062666811B00731806 /* SpotListItem.swift */,
+				78F9BC072666811B00731806 /* SpotInsetGeoGallery.swift */,
+				78F9BC082666811B00731806 /* SpotsImageView.swift */,
+				78F9BC092666811B00731806 /* SpotStart.swift */,
+			);
+			path = SpotsNew;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +427,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F9BC192666811B00731806 /* EasyRun.json in Resources */,
+				78F9BC1C2666811B00731806 /* Persons.json in Resources */,
 				78F9BBBB266680E300731806 /* Preview Assets.xcassets in Resources */,
 				78F9BBB8266680E300731806 /* Assets.xcassets in Resources */,
+				78F9BC1A2666811B00731806 /* Spots.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +442,60 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F9BC342666811B00731806 /* NewsListGeo.swift in Sources */,
+				78F9BC3D2666811B00731806 /* SpotListItem.swift in Sources */,
+				78F9BC0A2666811B00731806 /* SpotDetailViewMap.swift in Sources */,
+				78F9BC382666811B00731806 /* NewsDetailView.swift in Sources */,
+				78F9BC402666811B00731806 /* SpotStart.swift in Sources */,
+				78F9BC162666811B00731806 /* PersonsCardView.swift in Sources */,
+				78F9BC2B2666811B00731806 /* MediumBikeTrainings.swift in Sources */,
+				78F9BC352666811B00731806 /* NewsListCellGeo.swift in Sources */,
+				78F9BC0F2666811B00731806 /* RheinbadTrainingView.swift in Sources */,
+				78F9BC222666811B00731806 /* Models.swift in Sources */,
+				78F9BC332666811B00731806 /* FAQ.swift in Sources */,
+				78F9BC312666811B00731806 /* HardRunTrainingsData.swift in Sources */,
+				78F9BC2A2666811B00731806 /* MediumSwimTrainings.swift in Sources */,
+				78F9BC2F2666811B00731806 /* EasyBikeTrainings.swift in Sources */,
+				78F9BC322666811B00731806 /* FAQDisGroupView.swift in Sources */,
+				78F9BC182666811B00731806 /* PersonsViewFlipOverview.swift in Sources */,
+				78F9BC3A2666811B00731806 /* SpotInsetGallery3.swift in Sources */,
+				78F9BC1B2666811B00731806 /* PersonsModel.swift in Sources */,
+				78F9BC242666811B00731806 /* HomeScreen.swift in Sources */,
+				78F9BC212666811B00731806 /* ViewModel.swift in Sources */,
+				78F9BC2D2666811B00731806 /* HardSwimTrainings.swift in Sources */,
+				78F9BC1D2666811B00731806 /* SpotsModel.swift in Sources */,
+				78F9BC1F2666811B00731806 /* NewsModelOnline.swift in Sources */,
+				78F9BC132666811B00731806 /* ImageLoader.swift in Sources */,
+				78F9BC282666811B00731806 /* RandomWorkout2.swift in Sources */,
+				78F9BC3E2666811B00731806 /* SpotInsetGeoGallery.swift in Sources */,
+				78F9BC362666811B00731806 /* NewsListGeoDetail.swift in Sources */,
+				78F9BC172666811B00731806 /* PersonsCardBackView.swift in Sources */,
+				78F9BC3C2666811B00731806 /* SpotStartListItem.swift in Sources */,
+				78F9BC2C2666811B00731806 /* HardBikeTrainings.swift in Sources */,
+				78F9BC252666811B00731806 /* RandomRunView.swift in Sources */,
+				78F9BC3B2666811B00731806 /* SpotDetail.swift in Sources */,
+				78F9BC0B2666811B00731806 /* SpotsMapViewLinks.swift in Sources */,
+				78F9BC112666811B00731806 /* THBTrainingView.swift in Sources */,
+				78F9BC232666811B00731806 /* StartTabView.swift in Sources */,
+				78F9BC0D2666811B00731806 /* MapAnnotationViewBackup.swift in Sources */,
+				78F9BC0C2666811B00731806 /* MapViewTrainingsLocations.swift in Sources */,
+				78F9BC3F2666811B00731806 /* SpotsImageView.swift in Sources */,
 				78F9BBB6266680E100731806 /* ContentView.swift in Sources */,
+				78F9BC152666811B00731806 /* FlatLinkStyle.swift in Sources */,
+				78F9BC2E2666811B00731806 /* EasyRunTrainingsData.swift in Sources */,
+				78F9BC122666811B00731806 /* LazyTrainingOverview.swift in Sources */,
+				78F9BC272666811B00731806 /* RandomSwimView.swift in Sources */,
+				78F9BC302666811B00731806 /* EasySwimTrainings.swift in Sources */,
 				78F9BBB4266680E100731806 /* TTD_Neo_StyleApp.swift in Sources */,
+				78F9BC102666811B00731806 /* ArenaSportParkTrainingView.swift in Sources */,
+				78F9BC1E2666811B00731806 /* DecodeJSON.swift in Sources */,
+				78F9BC0E2666811B00731806 /* MapAnnotationView.swift in Sources */,
+				78F9BC142666811B00731806 /* ColorExtension.swift in Sources */,
+				78F9BC262666811B00731806 /* RandomBikeView.swift in Sources */,
+				78F9BC392666811B00731806 /* NewsListCell3D.swift in Sources */,
+				78F9BC202666811B00731806 /* ContentView2.swift in Sources */,
+				78F9BC372666811B00731806 /* NewsListLazy.swift in Sources */,
+				78F9BC292666811B00731806 /* MediumRunTrainingsData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +624,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_ASSET_PATHS = "\"TTD-Neo-Style/Preview Content\"";
 				DEVELOPMENT_TEAM = 6YPZV2TG2K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "TTD-Neo-Style/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "staxpix.TTD-Neo-Style";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "staxpix.TTD-1-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,16 +648,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_ASSET_PATHS = "\"TTD-Neo-Style/Preview Content\"";
 				DEVELOPMENT_TEAM = 6YPZV2TG2K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "TTD-Neo-Style/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "staxpix.TTD-Neo-Style";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "staxpix.TTD-1-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
