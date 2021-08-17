@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		783A326526C63C01003302F1 /* SportMeoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A326426C63C01003302F1 /* SportMeoView.swift */; };
+		783A326926C655FD003302F1 /* WebViewSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A326826C655FD003302F1 /* WebViewSetup.swift */; };
+		783A326B26C65722003302F1 /* SportMeoIntegratedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A326A26C65722003302F1 /* SportMeoIntegratedView.swift */; };
 		78F9BBB4266680E100731806 /* TTD_Neo_StyleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBB3266680E100731806 /* TTD_Neo_StyleApp.swift */; };
 		78F9BBB6266680E100731806 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBB5266680E100731806 /* ContentView.swift */; };
 		78F9BBB8266680E300731806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F9BBB7266680E300731806 /* Assets.xcassets */; };
@@ -69,6 +72,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		783A326426C63C01003302F1 /* SportMeoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportMeoView.swift; sourceTree = "<group>"; };
+		783A326826C655FD003302F1 /* WebViewSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewSetup.swift; sourceTree = "<group>"; };
+		783A326A26C65722003302F1 /* SportMeoIntegratedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportMeoIntegratedView.swift; sourceTree = "<group>"; };
 		78F9BBB0266680E100731806 /* TTD-Neo-Style.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TTD-Neo-Style.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F9BBB3266680E100731806 /* TTD_Neo_StyleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTD_Neo_StyleApp.swift; sourceTree = "<group>"; };
 		78F9BBB5266680E100731806 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -143,6 +149,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		783A326326C63BEA003302F1 /* SportMeoView */ = {
+			isa = PBXGroup;
+			children = (
+				783A326426C63C01003302F1 /* SportMeoView.swift */,
+				783A326A26C65722003302F1 /* SportMeoIntegratedView.swift */,
+				783A326826C655FD003302F1 /* WebViewSetup.swift */,
+			);
+			path = SportMeoView;
+			sourceTree = "<group>";
+		};
 		78F9BBA7266680E100731806 = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +184,7 @@
 				78F9BBC52666811B00731806 /* Locations */,
 				78F9BBFE2666811B00731806 /* News */,
 				78F9BBFA2666811B00731806 /* News-Geo */,
+				783A326326C63BEA003302F1 /* SportMeoView */,
 				78F9BBD32666811B00731806 /* Persons */,
 				78F9BBC22666811B00731806 /* Spots */,
 				78F9BC022666811B00731806 /* SpotsNew */,
@@ -446,7 +463,9 @@
 				78F9BC3D2666811B00731806 /* SpotListItem.swift in Sources */,
 				78F9BC0A2666811B00731806 /* SpotDetailViewMap.swift in Sources */,
 				78F9BC382666811B00731806 /* NewsDetailView.swift in Sources */,
+				783A326526C63C01003302F1 /* SportMeoView.swift in Sources */,
 				78F9BC402666811B00731806 /* SpotStart.swift in Sources */,
+				783A326B26C65722003302F1 /* SportMeoIntegratedView.swift in Sources */,
 				78F9BC162666811B00731806 /* PersonsCardView.swift in Sources */,
 				78F9BC2B2666811B00731806 /* MediumBikeTrainings.swift in Sources */,
 				78F9BC352666811B00731806 /* NewsListCellGeo.swift in Sources */,
@@ -464,6 +483,7 @@
 				78F9BC212666811B00731806 /* ViewModel.swift in Sources */,
 				78F9BC2D2666811B00731806 /* HardSwimTrainings.swift in Sources */,
 				78F9BC1D2666811B00731806 /* SpotsModel.swift in Sources */,
+				783A326926C655FD003302F1 /* WebViewSetup.swift in Sources */,
 				78F9BC1F2666811B00731806 /* NewsModelOnline.swift in Sources */,
 				78F9BC132666811B00731806 /* ImageLoader.swift in Sources */,
 				78F9BC282666811B00731806 /* RandomWorkout2.swift in Sources */,

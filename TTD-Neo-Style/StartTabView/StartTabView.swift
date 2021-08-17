@@ -53,11 +53,15 @@ struct StartTabView: View {
                     Text("Spots Map")
                 } }
             
-            PersonsViewFlipOverview()
-                .tabItem { VStack {
-                    Image(systemName: "person.fill")
-                    Text("Das Team")
-                } }
+            SportMeoIntegratedView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "person.fill")
+                        Text("Anmeldung Trainings")
+                    }
+                }
+            
+            
             
             RandomWorkout2()
                 .tabItem {
@@ -74,6 +78,12 @@ struct StartTabView: View {
                         Text("FAQs")
                     }
                 }
+            
+            PersonsViewFlipOverview()
+                .tabItem { VStack {
+                    Image(systemName: "person.fill")
+                    Text("Das Team")
+                } }
             
 //            PenilKit1()
 //                .tabItem { VStack {
