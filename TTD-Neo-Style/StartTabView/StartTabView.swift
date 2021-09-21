@@ -13,77 +13,110 @@ struct StartTabView: View {
         UITabBar.appearance().barTintColor = UIColor(Color("Background2"))
        }
     
+    
+    
     var body: some View {
         
         
         
         TabView {
-            HomeScreen()
-                .tabItem { VStack {
-                    Image(systemName: "house.fill")
-                    Text("Home")
-                } }
+            
+            Group {
+                HomeScreen()
+                    .tabItem { VStack {
+                        Image(systemName: "house.fill")
+                        Text("Home")
+                    } }
 
-            NewsListLazy()
-                .tabItem { VStack {
-                    Image(systemName: "newspaper.fill")
-                    Text("News")
-                } }
+                NewsListLazy()
+                    .tabItem { VStack {
+                        Image(systemName: "newspaper.fill")
+                        Text("News")
+                    } }
 
-            
+                
 
-            
-            LazyTrainingOverview()
-                .tabItem {
-                    Image(systemName: "clock.fill")
-                    Text("Trainingszeiten")
-                }
+                
+                LazyTrainingOverview()
+                    .tabItem {
+                        Image(systemName: "clock.fill")
+                        Text("Trainingszeiten")
+                    }
 
-            SpotStart()
-                .tabItem { VStack {
-                    Image(systemName: "paperplane.circle.fill")
-                    Text("Spots")
-                } }
+                SpotStart()
+                    .tabItem { VStack {
+                        Image(systemName: "paperplane.circle.fill")
+                        Text("Spots")
+                    } }
+                
             
-        
-            
-            SpotsMapViewLinks()
-                .tabItem { VStack {
-                    Image(systemName: "mappin.circle.fill")
-                    Text("Spots Map")
-                } }
-            
-            SportMeoIntegratedView()
-                .tabItem {
-                    VStack {
+                
+                SpotsMapViewLinks()
+                    .tabItem { VStack {
+                        Image(systemName: "mappin.circle.fill")
+                        Text("Spots Map")
+                    } }
+                
+                SportMeoIntegratedView()
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "play.fill")
+                            Text("Anmeldung Trainings")
+                        }
+                    }
+                
+                
+                
+                RandomWorkout2()
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "chart.bar.doc.horizontal.fill")
+                            Text("TTD-Workouts")
+                        }
+                    }
+                
+                FAQ()
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "questionmark.circle.fill")
+                            Text("FAQs")
+                        }
+                    }
+                
+                PersonsViewFlipOverview()
+                    .tabItem { VStack {
                         Image(systemName: "person.fill")
-                        Text("Anmeldung Trainings")
-                    }
-                }
+                        Text("Das Team")
+                    } }
+                
+                Touren()
+                    .tabItem { VStack {
+                        Image(systemName: "mappin.circle.fill")
+                        Text("Touren")
+                    } }
+            }
             
-            
-            
-            RandomWorkout2()
-                .tabItem {
-                    VStack {
-                        Image(systemName: "chart.bar.doc.horizontal.fill")
-                        Text("TTD-Workouts")
-                    }
-                }
-            
-            FAQ()
-                .tabItem {
-                    VStack {
-                        Image(systemName: "questionmark.circle.fill")
-                        Text("FAQs")
-                    }
-                }
-            
-            PersonsViewFlipOverview()
+            SocialMediaView()
                 .tabItem { VStack {
-                    Image(systemName: "person.fill")
-                    Text("Das Team")
+                    Image(systemName: "text.bubble.fill")
+                    Text("Social Media")
                 } }
+            
+           
+            VideoPlayerList()
+                .tabItem { VStack {
+                    Image(systemName: "video.fill")
+                    Text("Video-Workouts")
+                } }
+            
+            SponsorOverview()
+                .tabItem { VStack {
+                    Image(systemName: "heart.fill")
+                    Text("Partner und Sponsoren")
+                } }
+           
+            
+            
             
 //            PenilKit1()
 //                .tabItem { VStack {

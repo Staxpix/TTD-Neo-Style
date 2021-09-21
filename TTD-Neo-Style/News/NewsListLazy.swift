@@ -7,7 +7,11 @@
 
 import SwiftUI
 
+
+
 struct NewsListLazy: View {
+    
+    
     
     @State var newsOnline : [NewsOnline] = []
     
@@ -34,10 +38,14 @@ struct NewsListLazy: View {
         }
     init() {
             updateNavigationBarColor()
+        
         }
     
     
     var body: some View {
+        
+        
+        
         NavigationView {
             ZStack {
                 
@@ -64,7 +72,12 @@ struct NewsListLazy: View {
                     })
                 }
         }
-            
+            .onAppear {
+                apiCall().getNewsOnline { (newsOnline) in
+                    self.newsOnline = newsOnline
+                }
+                
+            }
             .navigationTitle("TTD News")
             .navigationBarTitleDisplayMode(.inline)
                 .navigationBarItems(trailing: Button(action: {
@@ -78,12 +91,7 @@ struct NewsListLazy: View {
         }
     
         .navigationViewStyle(StackNavigationViewStyle())
-        .onAppear {
-            apiCall().getNewsOnline { (newsOnline) in
-                self.newsOnline = newsOnline
-            }
-            
-        }
+        
         
     }
 }

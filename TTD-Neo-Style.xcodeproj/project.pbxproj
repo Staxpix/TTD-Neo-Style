@@ -3,13 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		783A326526C63C01003302F1 /* SportMeoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A326426C63C01003302F1 /* SportMeoView.swift */; };
 		783A326926C655FD003302F1 /* WebViewSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A326826C655FD003302F1 /* WebViewSetup.swift */; };
 		783A326B26C65722003302F1 /* SportMeoIntegratedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A326A26C65722003302F1 /* SportMeoIntegratedView.swift */; };
+		783CB96C26EDD20200573C11 /* NewsGalleryInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CB96B26EDD20200573C11 /* NewsGalleryInset.swift */; };
+		783CB96F26EE56E500573C11 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CB96E26EE56E500573C11 /* VideoPlayer.swift */; };
+		784E70B426CD194500E7D5B3 /* Touren.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784E70B326CD194500E7D5B3 /* Touren.swift */; };
+		784E70B726CD396300E7D5B3 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 784E70B626CD396300E7D5B3 /* FirebaseMessaging */; };
+		784E70B926CD3B7500E7D5B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 784E70B826CD3B7500E7D5B3 /* GoogleService-Info.plist */; };
+		784E70BD26CD92C900E7D5B3 /* SocialMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784E70BC26CD92C900E7D5B3 /* SocialMediaView.swift */; };
+		7870CDAD26EE650F00A30ADF /* VideoPlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7870CDAC26EE650F00A30ADF /* VideoPlayerList.swift */; };
+		7870CDB126EF145D00A30ADF /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7870CDB026EF145D00A30ADF /* VideoModel.swift */; };
+		7870CDB326EF176600A30ADF /* VideoWorkouts.json in Resources */ = {isa = PBXBuildFile; fileRef = 7870CDB226EF176600A30ADF /* VideoWorkouts.json */; };
+		7870CDDA26F8978C00A30ADF /* SponsorOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7870CDD926F8978C00A30ADF /* SponsorOverview.swift */; };
 		78F9BBB4266680E100731806 /* TTD_Neo_StyleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBB3266680E100731806 /* TTD_Neo_StyleApp.swift */; };
 		78F9BBB6266680E100731806 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9BBB5266680E100731806 /* ContentView.swift */; };
 		78F9BBB8266680E300731806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F9BBB7266680E300731806 /* Assets.xcassets */; };
@@ -75,6 +85,16 @@
 		783A326426C63C01003302F1 /* SportMeoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportMeoView.swift; sourceTree = "<group>"; };
 		783A326826C655FD003302F1 /* WebViewSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewSetup.swift; sourceTree = "<group>"; };
 		783A326A26C65722003302F1 /* SportMeoIntegratedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportMeoIntegratedView.swift; sourceTree = "<group>"; };
+		783CB96B26EDD20200573C11 /* NewsGalleryInset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsGalleryInset.swift; sourceTree = "<group>"; };
+		783CB96E26EE56E500573C11 /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		784E70B326CD194500E7D5B3 /* Touren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Touren.swift; sourceTree = "<group>"; };
+		784E70B826CD3B7500E7D5B3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		784E70BA26CD3C5400E7D5B3 /* TTD-Neo-Style.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TTD-Neo-Style.entitlements"; sourceTree = "<group>"; };
+		784E70BC26CD92C900E7D5B3 /* SocialMediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaView.swift; sourceTree = "<group>"; };
+		7870CDAC26EE650F00A30ADF /* VideoPlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerList.swift; sourceTree = "<group>"; };
+		7870CDB026EF145D00A30ADF /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		7870CDB226EF176600A30ADF /* VideoWorkouts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VideoWorkouts.json; sourceTree = "<group>"; };
+		7870CDD926F8978C00A30ADF /* SponsorOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SponsorOverview.swift; sourceTree = "<group>"; };
 		78F9BBB0266680E100731806 /* TTD-Neo-Style.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TTD-Neo-Style.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F9BBB3266680E100731806 /* TTD_Neo_StyleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTD_Neo_StyleApp.swift; sourceTree = "<group>"; };
 		78F9BBB5266680E100731806 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -143,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				784E70B726CD396300E7D5B3 /* FirebaseMessaging in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +178,39 @@
 				783A326826C655FD003302F1 /* WebViewSetup.swift */,
 			);
 			path = SportMeoView;
+			sourceTree = "<group>";
+		};
+		783CB96D26EE56BF00573C11 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				783CB96E26EE56E500573C11 /* VideoPlayer.swift */,
+				7870CDAC26EE650F00A30ADF /* VideoPlayerList.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		784E70B226CD190E00E7D5B3 /* Touren */ = {
+			isa = PBXGroup;
+			children = (
+				784E70B326CD194500E7D5B3 /* Touren.swift */,
+			);
+			path = Touren;
+			sourceTree = "<group>";
+		};
+		784E70BB26CD92B100E7D5B3 /* SocialMedia */ = {
+			isa = PBXGroup;
+			children = (
+				784E70BC26CD92C900E7D5B3 /* SocialMediaView.swift */,
+			);
+			path = SocialMedia;
+			sourceTree = "<group>";
+		};
+		7870CDD826F8976D00A30ADF /* Sponsorings */ = {
+			isa = PBXGroup;
+			children = (
+				7870CDD926F8978C00A30ADF /* SponsorOverview.swift */,
+			);
+			path = Sponsorings;
 			sourceTree = "<group>";
 		};
 		78F9BBA7266680E100731806 = {
@@ -178,8 +232,13 @@
 		78F9BBB2266680E100731806 /* TTD-Neo-Style */ = {
 			isa = PBXGroup;
 			children = (
+				7870CDD826F8976D00A30ADF /* Sponsorings */,
+				784E70BA26CD3C5400E7D5B3 /* TTD-Neo-Style.entitlements */,
+				784E70B226CD190E00E7D5B3 /* Touren */,
+				784E70BB26CD92B100E7D5B3 /* SocialMedia */,
 				78F9BBD72666811B00731806 /* Data */,
 				78F9BBCF2666811B00731806 /* Extensions */,
+				783CB96D26EE56BF00573C11 /* Video */,
 				78F9BBF72666811B00731806 /* FAQ */,
 				78F9BBC52666811B00731806 /* Locations */,
 				78F9BBFE2666811B00731806 /* News */,
@@ -195,6 +254,7 @@
 				78F9BBB3266680E100731806 /* TTD_Neo_StyleApp.swift */,
 				78F9BBB5266680E100731806 /* ContentView.swift */,
 				78F9BBB7266680E300731806 /* Assets.xcassets */,
+				784E70B826CD3B7500E7D5B3 /* GoogleService-Info.plist */,
 				78F9BBBC266680E300731806 /* Info.plist */,
 				78F9BBB9266680E300731806 /* Preview Content */,
 			);
@@ -273,6 +333,8 @@
 				78F9BBD82666811B00731806 /* EasyRun.json */,
 				78F9BBD92666811B00731806 /* Spots.json */,
 				78F9BBDA2666811B00731806 /* PersonsModel.swift */,
+				7870CDB026EF145D00A30ADF /* VideoModel.swift */,
+				7870CDB226EF176600A30ADF /* VideoWorkouts.json */,
 				78F9BBDB2666811B00731806 /* Persons.json */,
 				78F9BBDC2666811B00731806 /* SpotsModel.swift */,
 				78F9BBDD2666811B00731806 /* DecodeJSON.swift */,
@@ -359,6 +421,7 @@
 				78F9BBFB2666811B00731806 /* NewsListGeo.swift */,
 				78F9BBFC2666811B00731806 /* NewsListCellGeo.swift */,
 				78F9BBFD2666811B00731806 /* NewsListGeoDetail.swift */,
+				783CB96B26EDD20200573C11 /* NewsGalleryInset.swift */,
 			);
 			path = "News-Geo";
 			sourceTree = "<group>";
@@ -403,6 +466,9 @@
 			dependencies = (
 			);
 			name = "TTD-Neo-Style";
+			packageProductDependencies = (
+				784E70B626CD396300E7D5B3 /* FirebaseMessaging */,
+			);
 			productName = "TTD-Neo-Style";
 			productReference = 78F9BBB0266680E100731806 /* TTD-Neo-Style.app */;
 			productType = "com.apple.product-type.application";
@@ -430,6 +496,9 @@
 				Base,
 			);
 			mainGroup = 78F9BBA7266680E100731806;
+			packageReferences = (
+				784E70B526CD396300E7D5B3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 78F9BBB1266680E100731806 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -447,8 +516,10 @@
 				78F9BC192666811B00731806 /* EasyRun.json in Resources */,
 				78F9BC1C2666811B00731806 /* Persons.json in Resources */,
 				78F9BBBB266680E300731806 /* Preview Assets.xcassets in Resources */,
+				7870CDB326EF176600A30ADF /* VideoWorkouts.json in Resources */,
 				78F9BBB8266680E300731806 /* Assets.xcassets in Resources */,
 				78F9BC1A2666811B00731806 /* Spots.json in Resources */,
+				784E70B926CD3B7500E7D5B3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +534,7 @@
 				78F9BC3D2666811B00731806 /* SpotListItem.swift in Sources */,
 				78F9BC0A2666811B00731806 /* SpotDetailViewMap.swift in Sources */,
 				78F9BC382666811B00731806 /* NewsDetailView.swift in Sources */,
+				7870CDAD26EE650F00A30ADF /* VideoPlayerList.swift in Sources */,
 				783A326526C63C01003302F1 /* SportMeoView.swift in Sources */,
 				78F9BC402666811B00731806 /* SpotStart.swift in Sources */,
 				783A326B26C65722003302F1 /* SportMeoIntegratedView.swift in Sources */,
@@ -472,6 +544,7 @@
 				78F9BC0F2666811B00731806 /* RheinbadTrainingView.swift in Sources */,
 				78F9BC222666811B00731806 /* Models.swift in Sources */,
 				78F9BC332666811B00731806 /* FAQ.swift in Sources */,
+				783CB96C26EDD20200573C11 /* NewsGalleryInset.swift in Sources */,
 				78F9BC312666811B00731806 /* HardRunTrainingsData.swift in Sources */,
 				78F9BC2A2666811B00731806 /* MediumSwimTrainings.swift in Sources */,
 				78F9BC2F2666811B00731806 /* EasyBikeTrainings.swift in Sources */,
@@ -485,8 +558,10 @@
 				78F9BC1D2666811B00731806 /* SpotsModel.swift in Sources */,
 				783A326926C655FD003302F1 /* WebViewSetup.swift in Sources */,
 				78F9BC1F2666811B00731806 /* NewsModelOnline.swift in Sources */,
+				784E70B426CD194500E7D5B3 /* Touren.swift in Sources */,
 				78F9BC132666811B00731806 /* ImageLoader.swift in Sources */,
 				78F9BC282666811B00731806 /* RandomWorkout2.swift in Sources */,
+				7870CDB126EF145D00A30ADF /* VideoModel.swift in Sources */,
 				78F9BC3E2666811B00731806 /* SpotInsetGeoGallery.swift in Sources */,
 				78F9BC362666811B00731806 /* NewsListGeoDetail.swift in Sources */,
 				78F9BC172666811B00731806 /* PersonsCardBackView.swift in Sources */,
@@ -494,7 +569,9 @@
 				78F9BC2C2666811B00731806 /* HardBikeTrainings.swift in Sources */,
 				78F9BC252666811B00731806 /* RandomRunView.swift in Sources */,
 				78F9BC3B2666811B00731806 /* SpotDetail.swift in Sources */,
+				784E70BD26CD92C900E7D5B3 /* SocialMediaView.swift in Sources */,
 				78F9BC0B2666811B00731806 /* SpotsMapViewLinks.swift in Sources */,
+				783CB96F26EE56E500573C11 /* VideoPlayer.swift in Sources */,
 				78F9BC112666811B00731806 /* THBTrainingView.swift in Sources */,
 				78F9BC232666811B00731806 /* StartTabView.swift in Sources */,
 				78F9BC0D2666811B00731806 /* MapAnnotationViewBackup.swift in Sources */,
@@ -512,6 +589,7 @@
 				78F9BC0E2666811B00731806 /* MapAnnotationView.swift in Sources */,
 				78F9BC142666811B00731806 /* ColorExtension.swift in Sources */,
 				78F9BC262666811B00731806 /* RandomBikeView.swift in Sources */,
+				7870CDDA26F8978C00A30ADF /* SponsorOverview.swift in Sources */,
 				78F9BC392666811B00731806 /* NewsListCell3D.swift in Sources */,
 				78F9BC202666811B00731806 /* ContentView2.swift in Sources */,
 				78F9BC372666811B00731806 /* NewsListLazy.swift in Sources */,
@@ -643,8 +721,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TTD-Neo-Style/TTD-Neo-Style.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.1;
+				CURRENT_PROJECT_VERSION = 1.3;
 				DEVELOPMENT_ASSET_PATHS = "\"TTD-Neo-Style/Preview Content\"";
 				DEVELOPMENT_TEAM = 6YPZV2TG2K;
 				ENABLE_PREVIEWS = YES;
@@ -654,7 +733,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "staxpix.TTD-1-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -667,8 +746,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TTD-Neo-Style/TTD-Neo-Style.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.1;
+				CURRENT_PROJECT_VERSION = 1.3;
 				DEVELOPMENT_ASSET_PATHS = "\"TTD-Neo-Style/Preview Content\"";
 				DEVELOPMENT_TEAM = 6YPZV2TG2K;
 				ENABLE_PREVIEWS = YES;
@@ -678,7 +758,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "staxpix.TTD-1-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -708,6 +788,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		784E70B526CD396300E7D5B3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		784E70B626CD396300E7D5B3 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 784E70B526CD396300E7D5B3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 78F9BBA8266680E100731806 /* Project object */;
 }

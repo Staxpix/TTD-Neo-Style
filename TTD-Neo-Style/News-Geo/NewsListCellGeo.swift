@@ -30,12 +30,20 @@ struct NewsListCellGeo: View {
                 
                 VStack {
                     
+                    
                     Text(headline)
                         .font(.title3)
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         .multilineTextAlignment(.center)
                         .lineLimit(3)
-                        .padding()
+                        .padding(14)
+                        
+                        .background(Color("Background2"))
+                        .cornerRadius(25)
+                        
+                        
+                        .shadow(color: Color("LightShadow2"), radius: 4, x: -6, y: -6)
+                        .shadow(color: Color("DarkShadow2"), radius: 6, x: 8, y: 8)
                         
                     
                     Text(date)

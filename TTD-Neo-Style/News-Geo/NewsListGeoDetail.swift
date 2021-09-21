@@ -19,6 +19,7 @@ struct NewsListGeoDetail: View {
     
     
     
+    
     var body: some View {
         ZStack {
             
@@ -133,6 +134,9 @@ struct NewsListGeoDetail: View {
                             .shadow(color: Color("DarkShadow2"), radius: 6, x: 8, y: 8)
                             .padding()
                             .padding(.bottom, 20)
+                        
+                        
+                        
                             
                     }
                     .background(Color("Background2"))

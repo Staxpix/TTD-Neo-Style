@@ -244,9 +244,10 @@
         "longitude": 6.970846498015196,
         "gallery" : [
           "angerbachtal-1",
-          "placeholder-1",
-          "placeholder-1",
-          "placeholder-1"
+          "angerbachtal-2",
+          "angerbachtal-3",
+          "angerbachtal-4",
+          "angerbachtal-5"
         ],
         "text": "Ein kleiner Geheimtipp westlich von Ratingen. Entlag des Angerbachts schlängelt sich Kilometerlang eine von Autos fast gar nciht befahrene Strecke. Der 'Angerweg' eignet sich sowohl für gemütliche Runden inmitten wunderschöner Natur, aber auch für ein ordentliches Power-Intervall. Dafür am besten von Osten in Richtung Düsseldorf starten. Die vielen kleinen, unrhythmischen Anstiege sind ein schöne Rennsimulation. Am Wochenende bitte auf die Fußgänger/Hunde aufpassen, die aber auch nicht wirklich zahlreich vorhanden sind im Vergleich zu anderen Straßen."
     },
@@ -314,12 +315,12 @@
         "headline": "Jüchener Wellen",
         "distance": "22km",
         "disciplin": "Bike",
-        "image": "placeholder-2",
+        "image": "juchener-1",
         "shortInfo": "Ein kleiner Geheimtipp für härtere Trainingseinheiten",
         "latitude": 51.09766753363943,
         "longitude": 6.524358039939678,
         "gallery" : [
-            "placeholder-1",
+            "juchener-1",
             "placeholder-1",
             "placeholder-1",
             "placeholder-1",

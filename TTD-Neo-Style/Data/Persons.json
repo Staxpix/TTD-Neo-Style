@@ -9,10 +9,10 @@
     
     {
         "id": "2",
-        "name": "Bianca Späth",
+        "name": "Jan Hofmann",
         "status": "2. Vorsitzende",
-        "description": "Bianca ist unsere 2. Vorsitzende, verwaltet den Mitgliederstamm und agiert auch als Übungsleiterin. Solltet ihr euch also z.B. bei uns anmelden, gehen die Unterlagen immer über Biancas Tisch. Erfahrungen hat sie schon über alle Distanzen gemacht. Übrigens ein tolles Beispiel für eine Triathlon-Familie, auch auch Tochter und Mann aktive TTD-Mitglieder sind",
-        "image": "bianca"
+        "description": "Seit der letzten JHV ist Jan neben seiner bisherigen Tätigkeit als Leiter 'Kommunikation & Marketing' auch als 2. Vorsitzender tätig. Wir hoffen, dass noch genug Zeit für das Training bleibt, denn irgendwann soll die Insel mal besucht werden :-).",
+        "image": "jan"
     },
     
 
@@ -26,14 +26,24 @@
 
     {
         "id": "4",
-        "name": "Heike Hünchen",
-        "status": "Leiterin Sportbetrieb",
-        "description": "Heike ist unsere Leiterin Sportbetrieb und somit hauptverantwortlich für unsere sportliche Ausrichtung und die Koordination von Trainern bzw. Trainings. Zuhaue fühlt sie sich auf der Langdistanz.",
-        "image": "heike"
+        "name": "Ingmar Klusmann",
+        "status": "Leiter Sportbetrieb",
+        "description": "Ingmar ist langjähriges und sehr aktives Mitglied im TTD und bereits auf allen Distanzen erfolgreich. Seit diesem Sommer leitet er zusammen mit seinem Team den täglichen Sportbetrieb und reichert diesen mit vielen tollen Ideen und Events an.",
+        "image": "ingmar"
     },
-
+    
     {
         "id": "5",
+        "name": "Sebastian Sehnert",
+        "status": "Jugendvorstand",
+        "description": "Wir freuen uns sehr, dass wir Sebastian für den neu entstandenen Posten als Jugendvorstand gewinnen konnten. Immer gut gelaunt und mit einem breiten Lächeln wird er sich in Zukunft aktiv für die Belange der Kids einsetzen.",
+        "image": "sebastian"
+    },
+    
+    
+
+    {
+        "id": "6",
         "name": "Jan Hofmann",
         "status": "Kommunikation & Marketing",
         "description": "Im erweiterten Vorstand übernimmt Jan mit einem kleinen Team die Themen Kommunikation & Marketing. Wie so viele träumt er von der Insel im Pazifik und hofft auf den ein oder anderen Ligaeinsatz.",
@@ -41,25 +51,44 @@
     },
     
     {
-        "id": "6",
+        "id": "7",
         "name": "Karin Hörmann",
-        "status": "Kassenprüferin",
-        "description": "Und damit in der Kasse wirklich alles stimmt schaut Karin als Kassenprüferin ebenfalls über die Zahlen, wickelt aber auch alles rund um die DTU Startpässe ab. ",
+        "status": "Kassenprüferin & DTU-Startpässe",
+        "description": "Und damit in der Kasse wirklich alles stimmt schaut Karin als Kassenprüferin ebenfalls über die Zahlen, wickelt aber auch alles rund um die DTU Startpässe ab.",
         "image": "karin"
     },
 
+    
+    
     {
-        "id": "7",
+        "id": "8",
+        "name": "Ben Weiß",
+        "status": "Kassenprüfer",
+        "description": "Ben ist ebenfalls längjähriges, aktives Mitglied und support uns und das 'Zahlen-Team' als Kassenprüfer.",
+        "image": "ben"
+    },
+    
+    
+    {
+        "id": "9",
         "name": "Albert Florack",
         "status": "Stellv. Kassenprüfer",
         "description": "In einem Verein muss vieles gut organisiert sein. So füllt Albert die Rolle des stellvertretenden Kassenprüfers gewissenhaft aus.",
         "image": "albert"
     },
     
+    {
+        "id": "10",
+        "name": "Renate Holterhof",
+        "status": "Stellv. Kassenprüferin",
+        "description": "Renate bildet zusammen mit Albert das Team der stellv. Kassenprüfer/-in und schaut den Kollegen auf die Finger, bzw. Exel-Tabellen :-)",
+        "image": "renate"
+    },
     
 
+
     {
-        "id": "8",
+        "id": "11",
         "name": "Michael Ochmann",
         "status": "Leitung Leistungssport",
         "description": "Michi hat vor kurzem die Leitungs des Teams Leistungssport übernommen und wird unsere Athletinnen & Athleten auf die Ligawettkämpfe vorbereiten. Klares Ziel sind Aufstiege in höhere Ligen.",
@@ -67,7 +96,7 @@
     },
     
     {
-        "id": "9",
+        "id": "12",
         "name": "Ingmar Klusman",
         "status": "Leitung Ligabetrieb Leistungssport",
         "description": "Leitet bei uns den Ligabetrieb der Herren im Leitungssportbereich. Dank erfolgreich bestandener Trainerausbildung wird er demnächst auch als Trainer eingreifen. Selber startet er in unseren Ligateams und auf allen Distanzen bis zum Ironman.",
@@ -75,7 +104,7 @@
     },
     
     {
-        "id": "10",
+        "id": "13",
         "name": "Alex Jasch",
         "status": "Trainer Leistungssport",
         "description": "Alex - Urgewalt in der Triathlonszene, Ligastarter und vor allem einer der Trainer für unseren Leistungssportbereich.",
@@ -83,7 +112,7 @@
     },
     
     {
-        "id": "11",
+        "id": "14",
         "name": "Jens Raspe",
         "status": "Trainer Athletik / Swimmen / Laufen",
         "description": "Sowohl seine (virtuellen) Athletik-, aber auch Schwimm- & Lauftrainings sind geliebt und teils gefürchtet :-). Neben seier Ausrichtung als Trainer für unseren Leistungssportbereich, ist er auch selber auf allen Distanzen unterwegs.",
@@ -91,7 +120,7 @@
     },
     
     {
-        "id": "12",
+        "id": "15",
         "name": "Oliver Plum",
         "status": "Trainer",
         "description": "Langjähriges Mitglied, Coach und mit Erfahrungen aus allen Formaten gesegnet. Im übrigen toller Motivator, so bekommen TTD'ler vor großen  Wettkämpfen gerne nochmal eine WhatsApp mit besten Wünschen.",
@@ -99,7 +128,7 @@
     },
     
     {
-        "id": "13",
+        "id": "16",
         "name": "Kathleen Manno",
         "status": "Trainerin 'Kids",
         "description": "Ist bei uns Trainerin und speziell für unsere TRI-Kids zuständig. Ihre Lauf- und aktuell auch Zoom-Athletik-Sessions sind aber für alle TTD'ler ein essentieller Teil des Trainings.",
@@ -109,7 +138,7 @@
     
     
     {
-        "id": "14",
+        "id": "17",
         "name": "Katharina Klusmann",
         "status": "Leitung Ligabetrieb Damen",
         "description": "Katharina ist selber Triathletin & bei uns für den Ligabetrieb der Damen zuständig.",
@@ -117,13 +146,72 @@
     },
     
     {
-        "id": "15",
+        "id": "18",
         "name": "Stefan Gartner",
         "status": "Leitung Ligabetrieb Breitensport",
         "description": "Stefan ist bei uns für den Ligabetrieb der Herren im Breitensport zuständig. Fast sinnlos zu erwähnen, dass er natürlich auch selber Triathlon macht :-).",
         "image": "stefan"
-    }
+    },
     
+    {
+        "id": "19",
+        "name": "Sebastian Sehnert",
+        "status": "Trainer",
+        "description": "Nicht nur im Vorstands-Team ist Sebastian für die Kids aktiv, sondern auch als Trainer im Tagesbetrieb.",
+        "image": "sebastian"
+    },
+    
+    {
+        "id": "20",
+        "name": "Sarah Mangler",
+        "status": "Radguide",
+        "description": "Wenn sie nicht gerade wieder über 100km läuft, führt Sarah Sonntags gerne auch mal die ein oder andere Radgruppe aus :-).",
+        "image": "sarah"
+    },
+    
+    {
+        "id": "21",
+        "name": "Thomas Junk",
+        "status": "Radguide",
+        "description": "Frischgebackener Ironman (FFM 2021) und Radguide für unsere gemeinsamen Sonntags-Ausfahrten.",
+        "image": "thomas"
+    },
+    
+    {
+        "id": "22",
+        "name": "Daniel Enning",
+        "status": "Radguide",
+        "description": "Neben dem TT auch begeisterter Gravel-Fan. Daniel bietet im Herbst und Winter spezielle Gravel-Touren an!",
+        "image": "daniel2"
+    },
+    
+    
+    
+    
+    
+    {
+        "id": "23",
+        "name": "Martin Vreys",
+        "status": "Radguide",
+        "description": "Martin ist einer unserer Radguides und betreuut regelmäßig die gemeinsamen Sonntags-Ausfahrten.",
+        "image": "martin"
+    },
+    
+    {
+        "id": "24",
+        "name": "Heike Hünchen",
+        "status": "Radguide",
+        "description": "Heike war jahrelang in der sportlichen Leitung aktiv und ist auch danach dem Verein weiterhin treu verbunden in ihrer Tätigkeit als Radguide.",
+        "image": "heike"
+    },
+    
+    {
+        "id": "25",
+        "name": "Kai d'Alquen",
+        "status": "Radguide",
+        "description": "Wir freuen uns, dass sich auch Kai aktiv einbringt und den Verein und seine Mitglieder als Radguide supportet",
+        "image": "kai"
+    }
     
 
 ]

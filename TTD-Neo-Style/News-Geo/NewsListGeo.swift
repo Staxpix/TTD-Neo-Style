@@ -15,6 +15,7 @@ struct NewsListGeo: View {
     var image: String = ""
     var textPreview: String = ""
     
+    
     @State var newsOnline : [NewsOnline] = []
     
     

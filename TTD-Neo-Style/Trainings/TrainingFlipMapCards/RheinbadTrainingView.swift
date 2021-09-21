@@ -170,7 +170,7 @@ struct MapTrainingLocationRheinbad: View {
         
 //        Map(coordinateRegion: $region, interactionModes: .all, showsUserLocation: true)
         
-        NavigationView {
+//        NavigationView {
             Map(coordinateRegion: $region, annotationItems: locations) { item in
                 
                 MapAnnotation(coordinate: item.coordinate)
@@ -180,7 +180,7 @@ struct MapTrainingLocationRheinbad: View {
                 }
             }.cornerRadius(25)
             .edgesIgnoringSafeArea(.all)
-        }.navigationViewStyle(StackNavigationViewStyle())
+//        }.navigationViewStyle(StackNavigationViewStyle())
             
             
         

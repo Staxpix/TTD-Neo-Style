@@ -18,6 +18,7 @@ struct NewsOnline: Codable, Identifiable, Hashable {
     var introTextLink: String
     var linkHomepage: String
     
+    
 }
 
 //class apiCall {

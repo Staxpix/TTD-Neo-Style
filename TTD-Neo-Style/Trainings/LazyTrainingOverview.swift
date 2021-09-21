@@ -61,15 +61,15 @@ struct LazyTrainingOverview: View {
                                 
                                 LazyHGrid(rows: gridItems, spacing: 0, content: {
                                     
-                                    TrainingCardFlipRheinbadMap(tag: "Montag", uhrzeit: "20 - 21:45", ort: "Rheinbad 50", detail: " Leistungsstärke III (1:30-1:45), IV(1:45-2:00) & V(>2:00)")
+                                    TrainingCardFlipRheinbadMap(tag: "Montag", uhrzeit: "20 - 21:45", ort: "Rheinbad 50", detail: "Leistungssport, Fortgeschrittene, Breitensportler & Einsteiger")
                                     
-                                    TrainingCardFlipRheinbadMap(tag: "Mittwoch", uhrzeit: "20 - 21:45", ort: "Rheinbad 50", detail: "Gruppen der Leistungsstärke I(<1:15) & II(1:15-1:30) ")
+                                    TrainingCardFlipRheinbadMap(tag: "Mittwoch", uhrzeit: "20 - 21:45", ort: "Rheinbad 50", detail: "Leistungssport, Fortgeschrittene & Breitensportler")
                                     
-                                    TrainingCardFlipRheinbadMap(tag: "Freitag", uhrzeit: "19:45 - 21:30", ort: "Rheinbad 50", detail: "Gruppen der Leistungsstärke III (1:30-1:45), IV(1:45-2:00) & V(>2:00) ")
+                                    TrainingCardFlipRheinbadMap(tag: "Freitag", uhrzeit: "19:45 - 21:30", ort: "Rheinbad 50", detail: "Leistungssport, Fortgeschrittene, Breitensportler & Einsteiger")
                                     
-                                    TrainingCardFlipRheinbadMap(tag: "Samstag", uhrzeit: "17 - 18", ort: "Rheinbad 33", detail: "Schwerpunkt: Technik")
+                                    TrainingCardFlipRheinbadMap(tag: "Samstag", uhrzeit: "17 - 18", ort: "Rheinbad 33", detail: "Aktuell NICHT angeboten. Technikschwerpunkt.")
                                     
-                                    TrainingCardFlipRheinbadMap(tag: "Montag - Freitag", uhrzeit: "6 - 8", ort: "Rheinbad 50", detail: "Frühschwimmerangebot mit TTD-Ausweis: Er: 1,50 € / Ki: 1 €")
+                                    TrainingCardFlipRheinbadMap(tag: "Montag - Freitag", uhrzeit: "Jederzeit", ort: "Alle Bäder DUS", detail: "Unter Vorlage des TTD Ausweis, gültig bis zum 30.09.2021, Erwachsene: 1,50 €, Kinder 1,00 €")
                                     
                                 })
                             }
@@ -103,21 +103,15 @@ struct LazyTrainingOverview: View {
                                 
                                 LazyHGrid(rows: gridItems, spacing: 0, content: {
                                     
-                                    TrainingCardFlipTHBMap(tag: "Montag", uhrzeit: "15 - 20", ort: "Theodor-Heuss Brücke", detail: "1.5h GA1 in der Gruppe mit Lauf-ABC")
+                                    //TrainingCardFlipTHBMap(tag: "Montag", uhrzeit: "15 - 20", ort: "Theodor-Heuss Brücke", detail: "1.5h GA1 in der Gruppe mit Lauf-ABC")
                                     
-                                    TrainingCardFlipASPMap(tag: "Dienstag", uhrzeit: "18:30 - 20", ort: "Arena Sportpark", detail: "Lauftraining / Intervalle auf der Bahn")
+                                    TrainingCardFlipASPMap(tag: "Dienstag", uhrzeit: "18:30 - 20", ort: "Arena Sportpark", detail: "Intervall/Athletik (10Km >45Min.)")
                                     
-//                                    TrainingCardFlipTHBMap(tag: "Montag", uhrzeit: "15 - 20", ort: "Theodor-Heuss Brücke", detail: "1.5h GA1 in der Gruppe mit Lauf-ABC")
-//
-//                                    TrainingCardFlipTHBMap(tag: "Montag", uhrzeit: "15 - 20", ort: "Theodor-Heuss Brücke", detail: "1.5h GA1 in der Gruppe mit Lauf-ABC")
-//
-//                                    TrainingCardFlipTHBMap(tag: "Montag", uhrzeit: "15 - 20", ort: "Theodor-Heuss Brücke", detail: "1.5h GA1 in der Gruppe mit Lauf-ABC")
-//
-//                                    TrainingCardFlipTHBMap(tag: "Montag", uhrzeit: "15 - 20", ort: "Theodor-Heuss Brücke", detail: "1.5h GA1 in der Gruppe mit Lauf-ABC")
-//
-//                                    TrainingCardFlipTHBMap(tag: "Montag", uhrzeit: "15 - 20", ort: "Theodor-Heuss Brücke", detail: "1.5h GA1 in der Gruppe mit Lauf-ABC")
-//
-//                                    TrainingCardFlipTHBMap(tag: "Montag", uhrzeit: "15 - 20", ort: "Theodor-Heuss Brücke", detail: "1.5h GA1 in der Gruppe mit Lauf-ABC")
+                                    TrainingCardFlipASPMap(tag: "Dienstag", uhrzeit: "18:30 - 20", ort: "Arena Sportpark", detail: "Intervall/Athletik (10Km <45Min.)")
+                                    
+                                    TrainingCardFlipASPMap(tag: "Samstag", uhrzeit: "15:30 - 16:30", ort: "Arena Sportpark", detail: "Intervall/Athletik (zusammen mit den TRI-Kids)")
+                                    
+
                                     
                                 })
                             }
@@ -151,9 +145,9 @@ struct LazyTrainingOverview: View {
                                 
                                 LazyHGrid(rows: gridItems, spacing: 0, content: {
                                     
-                                    TrainingCardFlipTHBMap(tag: "Sonntag", uhrzeit: "9 Uhr", ort: "Theodor-Heuss Brücke", detail: "Start der flotten Gruppe.")
+                                    TrainingCardFlipTHBMap(tag: "Sonntag", uhrzeit: "9 Uhr", ort: "Theodor-Heuss Brücke", detail: "Leistungssport & Fortgeschrittene – Bei starker Nässe und unter 5 C° entfällt das Angebot.")
                                     
-                                    TrainingCardFlipTHBMap(tag: "Sonntag", uhrzeit: "10 Uhr", ort: "Theodor-Heuss Brücke", detail: "Team-Ausfahrt mit mehreren (Leistungs-)Gruppen.")
+                                    TrainingCardFlipTHBMap(tag: "Sonntag", uhrzeit: "10 Uhr", ort: "Theodor-Heuss Brücke", detail: "Fortgeschrittene, Breitensportler & Einsteiger – Bei starker Nässe und unter 5 C° entfällt das Angebot.")
                                     
                                     
                                     

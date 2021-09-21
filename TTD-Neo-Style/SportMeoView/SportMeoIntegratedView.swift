@@ -10,7 +10,7 @@ import SwiftUI
 struct SportMeoIntegratedView: View {
     var body: some View {
         NavigationView {
-            WebView(url: URL(string: "https://triteamduesseldorf.sportmeo.com/dates")).padding(50)
+            WebView(url: URL(string: "https://triteamduesseldorf.sportmeo.com/dates"))
         }.navigationTitle("Anmeldung Trainings")
         .navigationViewStyle(StackNavigationViewStyle())
     }

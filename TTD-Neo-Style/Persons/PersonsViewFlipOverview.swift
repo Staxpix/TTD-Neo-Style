@@ -32,7 +32,7 @@ struct PersonsViewFlipOverview: View {
             
             VStack {
                 ScrollView {
-                    
+                    VStack(spacing: 120) {
                     VStack {
                         
                         Image("ttd-schriftzug")
@@ -40,23 +40,29 @@ struct PersonsViewFlipOverview: View {
                             .scaledToFit()
                             .frame(width: 200, height: 80, alignment: .center)
                             .offset(y: 0)
-                            .animation(Animation.easeInOut(duration: 0.6).delay(0.2))
+//                            .animation(Animation.easeInOut(duration: 0.6).delay(0.2))
                         
                         Text("Der Vorstand")
                             .font(.title2)
                         
                         ScrollView(.horizontal, showsIndicators: false) {
                             
-                            LazyVGrid(columns: gridItems, spacing: 16, content: {
-                                ForEach(persons[0...6], id: \.id) { persons in
+                            
+                            
+                            
+                            
+                            
+                            
+                            HStack(spacing: 30) {
+                                ForEach(persons[0...9], id: \.id) { persons in
                                     PersonFlipCard(name: persons.name, status: persons.status, description: persons.description, image: persons.image)
                                 }.padding(.leading, 30)
                                 .padding(.bottom, 20)
-                            }).padding(28)
+                            }.padding(28)
                             
                         }
-                        .animation(.interpolatingSpring(mass: 1.0, stiffness: 100.0, damping: 10, initialVelocity: 1))
-                        .animation(Animation.spring(response: 0.6, dampingFraction: 0.6, blendDuration: 3))
+//                        .animation(.interpolatingSpring(mass: 1.0, stiffness: 100.0, damping: 10, initialVelocity: 1))
+//                        .animation(Animation.spring(response: 0.6, dampingFraction: 0.6, blendDuration: 3))
                     }
                     
                     VStack {
@@ -66,27 +72,37 @@ struct PersonsViewFlipOverview: View {
                             .scaledToFit()
                             .frame(width: 200, height: 80, alignment: .center)
                             .offset(y: 0)
-                            .animation(Animation.easeInOut(duration: 0.6).delay(0.2))
+//                            .animation(Animation.easeInOut(duration: 0.6).delay(0.2))
                         
                         Text("Unser Trainer-Team")
                             .font(.title2)
                         
                         ScrollView(.horizontal, showsIndicators: false) {
                             
-                            LazyVGrid(columns: gridItems, spacing: 16, content: {
-                                ForEach(persons[7...14], id: \.id) { persons in
+                            HStack(spacing: 30) {
+                                ForEach(persons[10...24], id: \.id) { persons in
                                     PersonFlipCard(name: persons.name, status: persons.status, description: persons.description, image: persons.image)
                                 }.padding(.leading, 30)
                                 .padding(.bottom, 20)
-                            }).padding(28)
+                            }.padding(28)
                         }
-                        .animation(.interpolatingSpring(mass: 1.0, stiffness: 100.0, damping: 10, initialVelocity: 1))
-                        .animation(Animation.spring(response: 0.6, dampingFraction: 0.6, blendDuration: 3))
+//                        .animation(.interpolatingSpring(mass: 1.0, stiffness: 100.0, damping: 10, initialVelocity: 1))
+//                        .animation(Animation.spring(response: 0.6, dampingFraction: 0.6, blendDuration: 3))
                     }
+                }
                 }
             }
             .navigationBarTitleDisplayMode(.inline)
-            .navigationBarTitle("Trainer und APs")
+            .toolbar {
+                        ToolbarItem(placement: .principal) {
+                            VStack {
+                                Text("Unser Team").font(.headline)
+                                Text("Vorstand, Trainer & APs").font(.subheadline)
+                            }
+                        }
+                    }
+                
+            
             .navigationBarHidden(true)
         }
         }.navigationViewStyle(StackNavigationViewStyle())
